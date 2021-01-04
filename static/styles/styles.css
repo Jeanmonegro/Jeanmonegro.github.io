@@ -4,7 +4,7 @@ body {
   .header {
     padding: 40px; /* some padding */
     text-align: center; /* center the text */
-    background: #1abc9c; /* green background */
+    background: #000000; /* green background */
     color: white; /* white text color */
   }
   
@@ -83,13 +83,33 @@ body {
     position: fixed;
     width: 100%;
   }
+  .footer1 {
+    float:left;
+    padding: 10px;
+  }
+  .footer2 {
+    float:right;
+    padding: 10px;
+  }
+  .icons {
+    font-size: 14px;
+  }
   .row {
     display: flex;
   }
-  
   .column {
     flex: 50%;
     text-align: center;
     height: 300px;
   }
-  
+  .projects {
+    background-color: red;
+    border-radius: 4px;
+    text-align: center;
+    height: 300px;
+  }
+  .button:hover {
+    background-color: greenyellow;
+    color: white;
+    border-radius: 4px;
+  }
