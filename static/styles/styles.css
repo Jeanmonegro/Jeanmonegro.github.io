@@ -86,6 +86,7 @@ body {
   .footer1 {
     float:left;
     padding: 10px;
+    text-align: left;
   }
   .footer2 {
     float:right;
