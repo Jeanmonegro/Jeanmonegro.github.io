@@ -80,7 +80,7 @@ body {
     text-align: center; /* Center text*/
     background: #ddd; /* Grey background */
     bottom: 0;
-    position: fixed;
+    min-height: calc(25vh - 120px);
     width: 100%;
   }
   .footer1 {
