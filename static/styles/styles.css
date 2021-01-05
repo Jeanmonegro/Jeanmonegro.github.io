@@ -78,13 +78,14 @@ body {
   }
   .footer {
     padding: 10px; /* Some padding */
-    text-align: center; /* Center text*/
-    background: #ddd; /* Grey background */
+    background-color: #333; /* Dark background color */
+    position: absolute;
     bottom: 0;
     min-height: calc(25vh - 120px);
     width: 100%;
   }
   .footer1 {
+    color: rgb(206, 206, 206);
     float:left;
     padding: 10px;
     text-align: left;
@@ -102,7 +103,7 @@ body {
     height: 300px;
   }
   .projects {
-    background-color: red;
+    background-color: rgb(45, 73, 110)(0, 110, 255);
     border-radius: 4px;
     text-align: center;
     height: 300px;
