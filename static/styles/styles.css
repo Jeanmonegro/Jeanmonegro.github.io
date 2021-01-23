@@ -79,9 +79,8 @@ body {
   .footer {
     padding: 10px; /* Some padding */
     background-color: #333; /* Dark background color */
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    min-height: calc(25vh - 120px);
     width: 100%;
   }
   .footer1 {
