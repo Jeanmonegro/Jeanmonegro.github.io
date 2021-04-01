@@ -11,7 +11,6 @@ let strikeLetters = new Array(maxStrikes);
 drawWordProgress();
 
 function drawGallows(){
-    // document.getElementById("gallows").src =  "images/strike-"+strikes+".png";
     document.getElementById("gallows").src ="/static/hangman-image/strike-"+strikes+".png";
 }
 
@@ -30,6 +29,10 @@ function drawWordProgress(){
         }else {
             console.log("index: " + i + " was false");
             wordToRender += " _ ";
+        }
+        if(wordToRender == word){
+            alert("Congratulations! Player 2 won");
+            console.log("Player 2 wins")
         }
     }
     document.getElementById("word").innerHTML = wordToRender;
