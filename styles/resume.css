@@ -1,14 +1,17 @@
 
 #body{
-    background-color: orange;
+    background-color: black;
     font-family: lato;
+}
+#background{
+  background-color: gray;
 }
 
 
-.section-1 {
+/* .section-1 {
     padding: 20vmin 0vmin;
     background-color: orange;
-  }
+  } */
   
   .section-1 .row .col-md-6 .pray img {
     opacity: 0.8;
