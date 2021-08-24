@@ -86,7 +86,8 @@ p{
 
 @media screen and (max-width: 600px) {
     .projectSection {
-      background-color: indianred;
+      background-color: sandybrown;
+      height: 110vh;
     }
   }
 
