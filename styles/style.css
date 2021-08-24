@@ -87,6 +87,10 @@ p{
     transform: translatey(-0.25em);
     
 }
-.cards{
-}
+
+@media screen and (max-width: 600px) {
+    .projectSection {
+      background-color: indianred;
+    }
+  }
 
