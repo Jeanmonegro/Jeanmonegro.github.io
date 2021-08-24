@@ -1,4 +1,13 @@
-
+html{
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    font-family: 'Boogaloo', cursive;
+}
+.navbar{
+    font-family: 'Boogaloo', cursive;
+    font-size: 1.5em;
+}
 .HomeSection{
     background-image: url(bg.jpg);
     background-position: center;
@@ -9,7 +18,6 @@
     font-size: 4rem;
     text-align: center;
     padding-top: 65px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
 }
 .highlight{
@@ -18,13 +26,6 @@
 .button{
     background-color: yellow;
     border-style: solid;
-}
-.AboutSection{
-    height: 100vh;
-    background-color: lightblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-    /* overflow:auto; */
 }
 .row{
     height: 20vh;
@@ -40,6 +41,7 @@
 }
 #contactSection{
     height: 100vh;
+    background-color: #EFDEF0;
 }
 
 p{
@@ -76,6 +78,7 @@ p{
     transition: all 0.25s;
     background-color: black;
     opacity: 0.9;
+    font-family: 'Boogaloo', cursive;
 }
 #btn:hover{
     background-color: orange;
@@ -84,9 +87,15 @@ p{
     
 }
 
+#cards{
+    color: black;
+    background-color: #B4C6DD;
+    padding: 4em;
+}
+
+
 @media screen and (max-width: 600px) {
     .projectSection {
-      background-color: sandybrown;
       height: 110vh;
     }
   }

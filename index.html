@@ -7,6 +7,10 @@
     <script src="https://kit.fontawesome.com/1eebc47b0a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar fixed-top navbar-expand-sm justify-content-center bg-dark" role="navigation">
@@ -22,7 +26,7 @@
                     <a href="index.html" class="nav-link nav-item text-white active">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#AboutSection" class="nav-item nav-link text-white">About</a>
+                    <a href="#aboutsection" class="nav-item nav-link text-white">About</a>
                 </li>
                 <li class="nav-item">
                     <a href="#projectSection" class="nav-item nav-link text-white">Projects</a>
@@ -49,28 +53,41 @@
         </div>
     </section>
 
-    <section>  
-        <div class="row h-100">
-            <div class="col-sm-6">
+    <section id="aboutsection">  
+        <div class="row h-100" id="cards">
+            <h1 class="text-black pb-5">
+                About Page
+            </h1>
+            <div class="col-sm-4">
               <div class="card">
                 <div class="card-body">
-                    <i class="fas fa-laptop-code fa-7x"></i>
-                    <h5 class="card-title">Special title treatment</h5>
+                    <i class="fas fa-laptop-code fa-5x"></i>
+                    <h4 class="card-title pt-3">My Experience</h4>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#aboutsection" class="btn btn-dark btn-sm">Ask Me Something!</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
               <div class="card">
                 <div class="card-body">
-                    <i class="fas fa-user-tie fa-7x"></i> 
-                    <h5 class="card-title">Jean Monegro</h5>
+                    <i class="fas fa-user-tie fa-5x"></i> 
+                    <h5 class="card-title pt-3">Jean Monegro</h5>
                     <p class="card-text">Full stack developer with 3+ years of experience designing, developing, and implementing applications and solutions using a range of technologies.</p>
-                    <a href="#" class="btn btn-primary">View Resume</a>
+                    <a href="#" class="btn btn-sm btn-dark">View Resume</a>
                 </div>
               </div>
             </div>
+            <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <i class="fas fa-laptop-code fa-5x"></i>
+                        <h4 class="card-title pt-3">My Work</h4>
+                        <p class="card-text">Please view some of my projects</p>
+                        <a href="#" class="btn btn-sm btn-dark">View Work</a>
+                  </div>
+                </div>
+              </div>
           </div>
     </section>
 
@@ -84,22 +101,22 @@
                     <ul id="projectList">
                         <li>
                             <form action="todo.html">
-                                <input type="submit" value="To Do List"  class="btn btn-info" />
+                                <input type="submit" value="To Do List"  class="btn btn-dark" />
                             </form>
                         </li>
                         <li>
                             <form action="weather.html">
-                                <input type="submit" value="Weather App"  class="btn btn-info" />
+                                <input type="submit" value="Weather App"  class="btn btn-dark" />
                             </form>
                         </li>
                         <li>
                             <form action="todo.html">
-                                <input type="submit" value="Project 3"  class="btn btn-info" />
+                                <input type="submit" value="Project 3"  class="btn btn-dark" />
                             </form>
                         </li>
                         <li>
                             <form action="todo.html">
-                                <input type="submit" value="Project 4"  class="btn btn-info" />
+                                <input type="submit" value="Project 4"  class="btn btn-dark" />
                             </form>
                         </li>
                     </ul>
@@ -110,7 +127,7 @@
             </div>
         </div>
     </section>
-    <section class="contactSection text-center text-white" id="contactSection">
+    <section class="contactSection text-center" id="contactSection">
         <h1 id="aboutRow1">
             Contact page
         </h1>
