@@ -47,7 +47,7 @@ p{
     font-weight: 300;
 }
 .projectSection{
-    height: 100vh;
+    height: 130vh;
     background-color: beige;
     /* overflow: auto; */
 }
@@ -87,3 +87,6 @@ p{
     transform: translatey(-0.25em);
     
 }
+.cards{
+}
+
