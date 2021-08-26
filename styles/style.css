@@ -6,7 +6,7 @@ h1{
 }
 .navbar{
     font-family: 'Boogaloo', cursive;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 .HomeSection{
     background-image: url(bg.jpg);
@@ -39,9 +39,14 @@ h1{
 #aboutRow3{
     padding-top: 4rem;
 }
-#contactSection{
+
+
+.contactSection{
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
-    background-color: #EFDEF0;
+    background-size: cover;
 }
 
 p{
